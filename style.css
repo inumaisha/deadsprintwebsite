@@ -344,7 +344,7 @@ nav ul li a {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
-.carousel-fade .carousel-control {
+#slider .carousel-fade .carousel-control {
     z-index: 2;
 }
 @media screen and (min-width: 1080px) and (max-width: 1920px) {
@@ -352,16 +352,16 @@ nav ul li a {
     .top-content .carousel-control-next { display: none; }
     .top-content .carousel-indicators li { margin-left: 10px; margin-right: 10px; }
 /* removes any white gaps */
-    .carousel {
+ #slider   .carousel {
       background:black;
     }
     /*
     forces image to be 100% width and not max width of 100%
     */
-    .carousel-item .img-fluid {
+ #slider   .carousel-item .img-fluid {
       width:100%;
     }
-    .carousel-item a {
+   #slider .carousel-item a {
       display: block;
       width:100%;
     }
@@ -378,14 +378,14 @@ nav ul li a {
     /*
     forces image to be 100% width and not max width of 100%
     */
-    .carousel-item .img-fluid {
+  #slider  .carousel-item .img-fluid {
       width:100%;
     }
-    .carousel-item a {
+   #slider .carousel-item a {
       display: block;
       width:100%;
     }
-    .item img {
+ #slider   .item img {
       background:url(hhttps://cdn.discordapp.com/attachments/778577454499102722/822004460468699196/coverphoto.jpg) no-repeat center center;
       background-size:50% auto;
     }
@@ -395,7 +395,7 @@ nav ul li a {
         min-height: 100px;
       }
     }
-    .carousel-inner > .item > img {
+  #slider  .carousel-inner > .item > img {
     margin: 0 auto;
 }
 
