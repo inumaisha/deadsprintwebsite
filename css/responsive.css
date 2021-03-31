@@ -20,36 +20,11 @@
         min-height: 350px;
     }
 
-        #teamslider .teamslider_text h3 {
-            font-size: 30px;
-        }
-        #teamslider .teamslider_text h2 {
-            font-size: 40px;
-        }
-        #teamslider .teamslider_text p {
-            font-size: 16px;
-            padding-bottom: 45px;
-        }
-        #teamslider .teamslider_text a.custom_btn {
-            font-size: 13px;
-        }
-        #teamslider .teamslider_text {
-            padding-bottom: 10%;
-        }
-        #teamslider {
-            min-height: 350px;
-        }
+        
     #welcome .welcome_icon i {
         font-size: 45px;
     }
-    #event .event_item {
-        width: 50%;
-        float: left;
-    }
-    #event .event_news {
-        padding-top: 30px;
-        width: 50%;
-    }
+  
     .team_content {
         padding: 20px 20px;
         height: 140px;
@@ -65,14 +40,27 @@
         margin: 0 auto;
         margin-bottom: 20px;
     }
-    #purches a.purches_btn {
-        margin-top: -40px;
+   
+    #footer {
+        min-height: 80px;
     }
-    #market-place .fw-single-image img {
-        height: 50%;
+    #footer .copyright p,
+    #footer .copyright p span a,
+    #footer .designer p,
+    #footer .designer a {
+        font-size: 11px;
+        text-align: center !important;
     }
-    #market-place .fw-single-image {
-        padding: 80px 15px;
+    #footer .copyright,
+    #footer .designer {
+        padding-top: 30px;
+    }
+    #back-to-top {
+        width: 25px;
+        height: 25px;
+        line-height: 23px;
+        bottom: 5px;
+        right: 5px;
     }
 }
 
@@ -97,25 +85,6 @@
         min-height: 350px;
     }
 
-        #teamslider .teamslider_text h3 {
-            font-size: 30px;
-        }
-        #teamslider .teamslider_text h2 {
-            font-size: 40px;
-        }
-        #teamslider .teamslider_text p {
-            font-size: 16px;
-            padding-bottom: 45px;
-        }
-        #teamslider .teamslider_text a.custom_btn {
-            font-size: 13px;
-        }
-        #teamslider .teamslider_text {
-            padding-bottom: 10%;
-        }
-        #teamslider {
-            min-height: 350px;
-        }
     #welcome .welcome_icon i {
         font-size: 45px;
     }
@@ -123,10 +92,7 @@
         width: 50%;
         float: left;
     }
-    #event .event_news {
-        padding-top: 30px;
-        width: 50%;
-    }
+   
     .team_content {
         padding: 20px 20px;
         height: 140px;
@@ -142,17 +108,29 @@
         margin: 0 auto;
         margin-bottom: 20px;
     }
-    #purches a.purches_btn {
-        margin-top: -40px;
+        #footer {
+        min-height: 80px;
     }
-    #market-place .fw-single-image img {
-        height: 50%;
+    #footer .copyright p,
+    #footer .copyright p span a,
+    #footer .designer p,
+    #footer .designer a {
+        font-size: 11px;
+        text-align: center !important;
     }
-    #market-place .fw-single-image {
-        padding: 80px 15px;
+    #footer .copyright,
+    #footer .designer {
+        padding-top: 30px;
     }
-
+    #back-to-top {
+        width: 25px;
+        height: 25px;
+        line-height: 23px;
+        bottom: 5px;
+        right: 5px;
+    }
 }
+   
 @media (max-width: 991px) {
 
     #slider .slider_text h3 {
@@ -175,25 +153,6 @@
         min-height: 350px;
     }
 
-        #teamslider .teamslider_text h3 {
-            font-size: 30px;
-        }
-        #teamslider .teamslider_text h2 {
-            font-size: 40px;
-        }
-        #teamslider .teamslider_text p {
-            font-size: 16px;
-            padding-bottom: 45px;
-        }
-        #teamslider .teamslider_text a.custom_btn {
-            font-size: 13px;
-        }
-        #teamslider .teamslider_text {
-            padding-bottom: 10%;
-        }
-        #teamslider {
-            min-height: 350px;
-        }
     #welcome .welcome_icon i {
         font-size: 45px;
     }
@@ -201,10 +160,7 @@
         width: 50%;
         float: left;
     }
-    #event .event_news {
-        padding-top: 30px;
-        width: 50%;
-    }
+    
     .team_content {
         padding: 20px 20px;
         height: 140px;
@@ -220,16 +176,30 @@
         margin: 0 auto;
         margin-bottom: 20px;
     }
-    #purches a.purches_btn {
-        margin-top: -40px;
+    
+        #footer {
+        min-height: 80px;
     }
-    #market-place .fw-single-image img {
-        height: 50%;
+    #footer .copyright p,
+    #footer .copyright p span a,
+    #footer .designer p,
+    #footer .designer a {
+        font-size: 11px;
+        text-align: center !important;
     }
-    #market-place .fw-single-image {
-        padding: 80px 15px;
+    #footer .copyright,
+    #footer .designer {
+        padding-top: 30px;
+    }
+    #back-to-top {
+        width: 25px;
+        height: 25px;
+        line-height: 23px;
+        bottom: 5px;
+        right: 5px;
     }
 }
+   
 
 @media all and (max-width: 960px) and (min-width: 640px) {
 
@@ -271,42 +241,7 @@
         padding-top: 20px;
         font-size: 18px;
     }
-    #teamslider {
-        min-height: 95px;
-    }
-    #teamslider .carousel-indicators {
-        bottom: 90px;
-    }
-    #teamslider .carousel-indicators li {
-        width: 10px;
-        height: 10px;
-    }
-    #teamslider .carousel-indicators .active {
-        width: 10px;
-        height: 10px;
-        margin: 1px;
-    }
-    #teamslider .carousel-caption {
-        bottom: 50px;
-    }
-    #teamslider .teamslider_text a.custom_btn {
-        font-size: 12px;
-        padding: 5px 10px 7px;
-    }
-    #teamslider .teamslider_text {
-        padding-bottom: 25px;
-    }
-    #teamslider .teamslider_text p {
-        font-size: 12px;
-        padding-bottom: 45px;
-    }
-    #teamslider .teamslider_text h2 {
-        font-size: 22px;
-        padding: 10px 0;
-    }
-    #teamslider .teamslider_text h3 {
-        font-size: 18px;
-    }
+    
     .wel_header h2 {
         font-size: 25px;
         text-transform: uppercase;
@@ -434,7 +369,7 @@
     #footer .designer p,
     #footer .designer a {
         font-size: 11px;
-        text-align: center;
+        text-align: center !important;
     }
     #footer .copyright,
     #footer .designer {
@@ -489,44 +424,7 @@
     div#service {
         padding: 40px 0px;
     }
-    #teamslider {
-        min-height: 95px;
-    }
-    #teamslider .carousel-indicators {
-        bottom: 50px;
-    }
-    #teamslider .carousel-indicators li {
-        width: 10px;
-        height: 10px;
-
-        margin: 0 3px;
-    }
-    #teamslider .carousel-indicators .active {
-        width: 10px;
-        height: 10px;
-        margin: 0 3px;
-    }
-    #teamslider .carousel-caption {
-        bottom: 35px;
-    }
-    #teamslider .teamslider_text a.custom_btn {
-        font-size: 12px;
-        padding: 5px 10px 7px;
-    }
-    #teamslider .teamslider_text {
-        padding-bottom: 25px;
-    }
-    #teamslider .teamslider_text p {
-        font-size: 12px;
-        padding-bottom: 25px;
-    }
-    #teamslider .teamslider_text h2 {
-        font-size: 22px;
-        padding: 10px 0;
-    }
-    #teamslider .teamslider_text h3 {
-        font-size: 18px;
-    }
+   
     .wel_header {
         padding-bottom: 0px;
     }
