@@ -191,6 +191,31 @@ nav ul li a {
 #slider{
  z-index: -1;
 }
+/* resizing img to fit different screen sizes */
+@media (min-width: 200px) {
+  div.test > img {
+    height: 300px !important ;
+  }
+}
+@media (min-width: 300px) {
+  div.test > img {
+    height: 300px !important;
+  }
+}
+@media (min-width: 400px) {
+  div.test > img {
+     height: 300px !important;
+  }
+}
+@media (min-width: 600px) {
+  div.test > img {
+    height: 400px !important ;
+  }
+}
+@media (min-width: 800px) {
+  div.test > img {
+    height: 600px !important ; }
+}
 #slider .wrap{
   position: relative;
   max-width: 1000px;
