@@ -18,6 +18,9 @@
     #slider {
         min-height: 350px;
     }
+    #slider .carousel-indicators {
+        bottom: 90px;
+    }
 
         
     #welcome .welcome_icon i {
@@ -85,6 +88,9 @@
     #slider {
         min-height: 350px;
     }
+      #slider .carousel-indicators {
+        bottom: 90px;
+    }
 
         
     #welcome .welcome_icon i {
@@ -99,7 +105,7 @@
         top: 55px;
     }
     .carousel-indicators {
-        bottom: 30px;
+        bottom: 50px;
     }
     #blog .blog_news {
         width: auto;
@@ -149,6 +155,10 @@
     }
     #slider {
         min-height: 350px;
+    }
+    
+     #slider .carousel-indicators {
+        bottom: 90px;
     }
 
     #welcome .welcome_icon i {
@@ -218,7 +228,9 @@
     #slider {
         min-height: 350px;
     }
-
+  #slider .carousel-indicators {
+        bottom: 90px;
+    }
     #welcome .welcome_icon i {
         font-size: 45px;
     }
