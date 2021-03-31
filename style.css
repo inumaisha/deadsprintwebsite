@@ -353,7 +353,7 @@ nav ul li a {
     .top-content .carousel-indicators li { margin-left: 10px; margin-right: 10px; }
 /* removes any white gaps */
     .carousel {
-      background:#007aeb;
+      background:black;
     }
     /*
     forces image to be 100% width and not max width of 100%
